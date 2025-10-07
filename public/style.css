@@ -35,11 +35,12 @@ body::-webkit-scrollbar-thumb {
   min-height: 100vh;
   overflow-x: hidden;
   text-align: justify;
-  text-indent: 40px;
+  
 }
 
 .markdown-body p {
   line-height: 1.5;
+  text-indent: 20px;
 }
 
 /* Add styles for a dark theme if you use it */
