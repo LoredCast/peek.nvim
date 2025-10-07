@@ -1,7 +1,7 @@
 html {
   background: #fdfdfd; /* A slightly off-white for less eye strain */
   font-family: 'Georgia', 'Times New Roman', serif; /* Classic serif fonts */
-  line-height: 1.8; /* Increased line height for readability */
+  line-height: 1.5; /* Increased line height for readability */
 }
 
 body::-webkit-scrollbar {
@@ -19,17 +19,17 @@ body::-webkit-scrollbar-thumb {
 .peek-body {
   margin: 0;
   padding: 0;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .markdown-body {
-  line-height: 1.8;
+  line-height: 1.5;
   font-family: 'Georgia', 'Times New Roman', serif;
   background-color: #fdfdfd;
   color: #333; /* Dark gray text is easier on the eyes than pure black */
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 820px; /* A slightly wider layout */
+  max-width: 720px; /* A slightly wider layout */
   margin: 0 auto;
   padding: 80px;
   min-height: 100vh;
@@ -38,7 +38,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .markdown-body p {
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 /* Add styles for a dark theme if you use it */
