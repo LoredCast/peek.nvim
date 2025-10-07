@@ -206,3 +206,100 @@ div[data-graph='mermaid']:has(> .peek-loader) {
   color: var(--color-prettylights-syntax-markup-deleted-text);
   background-color: var(--color-prettylights-syntax-markup-deleted-bg);
 }
+
+
+/* Pandoc Styles */
+
+/* pandoc.css */
+
+/*
+  A CSS stylesheet for Pandoc-generated HTML.
+  Released under the MIT license.
+*/
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+#peek-markdown-body {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+p {
+  margin: 1em 0;
+  text-align: justify;
+}
+a {
+  color: #0072c1;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  font-family: "Consolas", "Monaco", monospace;
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
+}
+pre {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1em;
+  overflow-x: auto;
+}
+pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 100%;
+}
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  margin-left: 0;
+  color: #666;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+.references {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #ccc;
+}
+.csl-entry {
+  margin-bottom: 1em;
+}
+
+
