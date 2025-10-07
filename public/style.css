@@ -1,39 +1,58 @@
 html {
-  background: #000000;
-  font-family: serif;
-  line-height: 200%;
+  background: #fdfdfd; /* A slightly off-white for less eye strain */
+  font-family: 'Georgia', 'Times New Roman', serif; /* Classic serif fonts */
+  line-height: 1.8; /* Increased line height for readability */
 }
+
 body::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
 }
+
 body::-webkit-scrollbar-track {
-  background: #333;
+  background: #f1f1f1;
 }
+
 body::-webkit-scrollbar-thumb {
-  background-color: #555;
+  background-color: #888;
 }
+
 .peek-body {
   margin: 0;
   padding: 0;
-  line-height: 150%;
+  line-height: 1.8;
 }
+
 .markdown-body {
-  line-height: 200%;
-  font-family: serif;
-  background-color: #000000;
+  line-height: 1.8;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: #fdfdfd;
+  color: #333; /* Dark gray text is easier on the eyes than pure black */
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 780px;
+  max-width: 820px; /* A slightly wider layout */
   margin: 0 auto;
-  padding: 100px;
+  padding: 80px;
   min-height: 100vh;
   overflow-x: hidden;
   text-align: justify;
 }
 
 .markdown-body p {
-  line-height: 200%;
+  line-height: 1.8;
 }
+
+/* Add styles for a dark theme if you use it */
+[data-theme='dark'] html {
+  background: #1e1e1e;
+  color: #ccc;
+}
+
+[data-theme='dark'] .markdown-body {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+
 @media (max-width: 767px) {
   .markdown-body {
     padding: 40px 40px 30px 40px;
