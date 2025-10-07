@@ -30,6 +30,10 @@ body::-webkit-scrollbar-thumb {
   overflow-x: hidden;
   text-align: justify;
 }
+
+.markdown-body p {
+  line-height: 150%;
+}
 @media (max-width: 767px) {
   .markdown-body {
     padding: 40px 40px 30px 40px;
