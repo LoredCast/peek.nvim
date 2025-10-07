@@ -1,7 +1,7 @@
 html {
   background: #000000;
   font-family: serif;
-  line-height: 150%;
+  line-height: 200%;
 }
 body::-webkit-scrollbar {
   width: 4px;
@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 150%;
 }
 .markdown-body {
-  line-height: 150%;
+  line-height: 200%;
   font-family: serif;
   background-color: #000000;
   box-sizing: border-box;
@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .markdown-body p {
-  line-height: 150%;
+  line-height: 200%;
 }
 @media (max-width: 767px) {
   .markdown-body {
