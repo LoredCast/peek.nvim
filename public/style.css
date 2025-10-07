@@ -1,6 +1,7 @@
 html {
   background: #000000;
   font-family: serif;
+  line-height: 150%;
 }
 body::-webkit-scrollbar {
   width: 4px;
@@ -16,21 +17,21 @@ body::-webkit-scrollbar-thumb {
   padding: 0;
 }
 .markdown-body {
-  line-height: 1.5em;
+  line-height: 150%;
   font-family: serif;
   background-color: #000000;
   box-sizing: border-box;
   min-width: 200px;
-  max-width: 980px;
+  max-width: 780px;
   margin: 0 auto;
-  padding: 80px;
+  padding: 100px;
   min-height: 100vh;
   overflow-x: hidden;
   text-align: justify;
 }
 @media (max-width: 767px) {
   .markdown-body {
-    padding: 15px 15px 30px 15px;
+    padding: 40px 40px 30px 40px;
   }
 }
 @keyframes pulse {
