@@ -40,7 +40,14 @@ body::-webkit-scrollbar-thumb {
 
 .markdown-body p {
   line-height: 1.5;
-  text-indent: 20px;
+}
+
+.markdown-body p:first-of-type {
+  text-indent: 2em; /* or whatever you like */
+}
+
+.markdown-body p:not(:first-of-type) {
+  text-indent: 0;
 }
 
 /* Add styles for a dark theme if you use it */
@@ -220,7 +227,7 @@ div[data-graph='mermaid']:has(> .peek-loader) {
 */
 
 html {
-  font-size: 100%;
+  font-size: 110%;
 }
 body {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
