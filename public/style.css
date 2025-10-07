@@ -1,5 +1,6 @@
 html {
-  background: #333;
+  background: #000000;
+  font-family: serif;
 }
 body::-webkit-scrollbar {
   width: 4px;
@@ -22,6 +23,7 @@ body::-webkit-scrollbar-thumb {
   padding: 45px;
   min-height: 100vh;
   overflow-x: hidden;
+  text-align: justify;
 }
 @media (max-width: 767px) {
   .markdown-body {
